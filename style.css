@@ -1,0 +1,30 @@
+*{
+     padding: 1rem;
+     margin: 1rem;
+}
+
+.square {
+    --size:200px;
+    width:var(--size);
+    height:var(--size);
+    border:3px solid black;
+    transition: background-color 1s;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.turquoise{
+    background-color: turquoise;
+}
+
+
